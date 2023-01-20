@@ -1,0 +1,23 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+
+
+  <input
+    type="text"
+    class="border px-2 py-4 w-full mb-2"
+    placeholder="Product name"
+    formControlName="title"
+    appFocus
+    >
+
+    <p
+      *ngIf="title.errors?.minlength && title.touched"
+
+      class="text-red-600 font-medium mb-2">
+      Please fill title field min lenght. Now {{title.value.length}}
+    </p>
+
+    <button
+    class="rounded px-2 py-4 bg-blue-500 text-white"
+    type="submit"
+    >Create</button>
+</form>
