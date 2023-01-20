@@ -11,6 +11,16 @@ import { FilterProductsPipe } from './pipes/filter-products.pipe';
 import { ModalComponent } from './components/modal/modal.component';
 import { CreateProductComponent } from './components/create-product/create-product.component';
 import { FocusDirective } from './directives/focus.directive';
+import { FooterComponent } from './components/footer/footer.component';
+import { TopHeaderComponent } from './components/header/top-header/top-header.component';
+import { BottomHeaderComponent } from './components/header/bottom-header/bottom-header.component';
+import { MenuHeaderComponent } from './components/header/menu-header/menu-header.component';
+import { CatalogComponent } from './components/catalog/catalog.component';
+import { PopularProductComponent } from './components/popular-product/popular-product.component';
+import { PopularCategoryComponent } from './components/popular-category/popular-category.component';
+import { ContactsComponent } from './components/pages/contacts/contacts.component';
+import { DeliveryComponent } from './components/pages/delivery/delivery.component';
+import { ConstructComponent } from './components/pages/construct/construct.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +30,17 @@ import { FocusDirective } from './directives/focus.directive';
     FilterProductsPipe,
     ModalComponent,
     CreateProductComponent,
-    FocusDirective
+    FocusDirective,
+    FooterComponent,
+    TopHeaderComponent,
+    BottomHeaderComponent,
+    MenuHeaderComponent,
+    CatalogComponent,
+    PopularProductComponent,
+    PopularCategoryComponent,
+    ContactsComponent,
+    DeliveryComponent,
+    ConstructComponent
   ],
   imports: [
     BrowserModule,
