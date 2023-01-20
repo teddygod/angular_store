@@ -21,6 +21,7 @@ import { PopularCategoryComponent } from './components/popular-category/popular-
 import { ContactsComponent } from './components/pages/contacts/contacts.component';
 import { DeliveryComponent } from './components/pages/delivery/delivery.component';
 import { ConstructComponent } from './components/pages/construct/construct.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ConstructComponent } from './components/pages/construct/construct.compo
     PopularCategoryComponent,
     ContactsComponent,
     DeliveryComponent,
-    ConstructComponent
+    ConstructComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

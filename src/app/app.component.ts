@@ -12,7 +12,7 @@ import { Observable, tap } from 'rxjs';
 })
 export class AppComponent implements OnInit {
 
-  title = 'TBH';
+  title = 'ArtDecor';
 
   // products: IProduct[] = []
 
